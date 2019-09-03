@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TextIterable
+comment0.text=\r\n\ This\ utility\ class\ allows\ multiple\ classes\ to\ iterate\ over\ a\ text\ source\ in\r\n\ multiple\ ways.\r\n\ \r\n\ It\ also\ serves\ to\ show\ how\ to\ implement\ an\ iterator.\r\n\ \r\n\ @author\ Duke\ Software\ Team\r\n\ \r\n\ \ \ \ \ \ \ \ \ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\r\n\ \ \ \ \ \ \ \ \ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\r\n
+comment1.params=source\ regexp
+comment1.target=TextIterable(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ from\ a\ given\ string.\r\n
+comment2.params=
+comment2.target=java.util.Iterator\ iterator()
+comment2.text=\r\n\ @see\ java.lang.Iterator\r\n
+comment3.params=
+comment3.target=boolean\ hasNext()
+comment4.params=
+comment4.target=java.lang.String\ next()
+numComments=5

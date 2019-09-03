@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=StorageResource
+comment0.text=\r\n\ The\ <code>StorageResource</code>\ class\ stores\ any\ number\ of\ <code>String</code>\ objects\ and\r\n\ allows\ access\ to\ these\ stored\ values\ one\ at\ a\ time,\ using\ the\ method\ <code>data</code>.\ These\r\n\ strings\ can\ then\ be\ iterated\ over\ in\ the\ order\ they\ were\ added\ using\ a\ <code>for</code>\ loop.\r\n\ \r\n\ <P>\r\n\ This\ class\ mirrors\ an\ <code>ArrayList&lt;String&gt;</code>\ in\ some\ functionality,\ but\ is\ simpler\r\n\ to\ use\ and\ fits\ the\ Duke/Coursersa\ model\ of\ creating\ and\ using\ iterables.\r\n\ \r\n\ <P>\r\n\ Example\ usage\:\r\n\ \r\n\ <PRE>\r\n\ FileResource\ fr\ \=\ new\ FileResource();\r\n\ StorageResource\ store\ \=\ new\ StorageResource();\r\n\ for\ (String\ s\ \:\ fr.words())\ {\r\n\ \ \ \ \ store.add(s);\r\n\ }\r\n\ //\ can\ process\ store\ here,\ e.g.,\r\n\ //\ get\ number\ of\ strings\ stored\r\n\ int\ x\ \=\ store.size();\r\n\ for\ (String\ s\ \:\ store.data())\ {\r\n\ \ \ \ \ //\ print\ or\ process\ s\r\n\ }\r\n\ </PRE>\r\n\ \r\n\ <P>\r\n\ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\r\n\ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\r\n\ \r\n\ @author\ Duke\ Software\ Team\r\n
+comment1.params=
+comment1.target=StorageResource()
+comment1.text=\r\n\ Create\ an\ empty\ <code>StorageResource</code>\ object\r\n
+comment2.params=data
+comment2.target=StorageResource(java.lang.String[])
+comment2.text=\r\n\ Create\ a\ <code>StorageResource</code>\ object,\ loaded\ with\ the\ Strings\ passed\ as\ parameters.\r\n
+comment3.params=other
+comment3.target=StorageResource(edu.duke.StorageResource)
+comment3.text=\r\n\ Create\ an\ <code>StorageResource</code>\ object\ that\ is\ a\ copy\ of\ another\ list.\r\n\ \r\n\ @param\ other\ the\ original\ list\ being\ copied\r\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\r\n\ Remove\ all\ strings\ from\ this\ object\ so\ that\ <code>.size()\ \=\=\ 0</code>.\r\n
+comment5.params=s
+comment5.target=void\ add(java.lang.String)
+comment5.text=\r\n\ Adds\ a\ string\ to\ this\ storage\ object.\r\n\ \r\n\ @param\ s\ the\ value\ added\r\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\r\n\ Returns\ the\ number\ of\ strings\ added/stored\ in\ this\ object.\r\n\ \r\n\ @return\ the\ number\ of\ strings\ stored\ in\ the\ object\r\n
+comment7.params=s
+comment7.target=boolean\ contains(java.lang.String)
+comment7.text=\r\n\ Determines\ if\ a\ string\ is\ stored\ in\ this\ object.\r\n\ \r\n\ @param\ s\ string\ searched\ for\r\n\ @return\ true\ if\ and\ only\ if\ s\ is\ stored\ in\ this\ object\r\n
+comment8.params=
+comment8.target=java.lang.Iterable\ data()
+comment8.text=\r\n\ Create\ and\ return\ an\ iterable\ for\ all\ strings\ in\ this\ object.\r\n\ \r\n\ @return\ an\ <code>Iterable</code>\ that\ allows\ access\ to\ each\ string\ in\ the\ order\ stored\r\n
+numComments=9

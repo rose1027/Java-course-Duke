@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ResourceException
+comment0.text=\r\n\ A\ general\ exception\ for\ Resource\ objects.\r\n\ \r\n\ <P>\r\n\ Note,\ this\ is\ a\ RuntimeException\ so\ that\ it\ does\ not\ HAVE\ to\ be\ caught,\r\n\ but\ still\ gives\ useful\ information\ about\ the\ error.\r\n\ \r\n\ <P>\r\n\ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\r\n\ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\r\n\ \r\n\ @author\ Duke\ Software\ Team\r\n
+comment1.params=message
+comment1.target=ResourceException(java.lang.String)
+comment2.params=message\ cause
+comment2.target=ResourceException(java.lang.String,\ java.lang.Throwable)
+numComments=3

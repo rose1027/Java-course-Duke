@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=WordsInFiles
+comment1.params=
+comment1.target=WordsInFiles()
+comment2.params=f
+comment2.target=void\ addWordsFromFile(java.io.File)
+comment2.text=This\ method\ should\ add\ all\ the\ words\ from\ f\ into\ the\ map.\ If\ a\ word\ is\ not\ in\r\nthe\ map,\ then\ you\ must\ create\ a\ new\ ArrayList\ of\ type\ String\ with\ this\ word,\ and\ have\r\nthe\ word\ map\ to\ this\ ArrayList.\ If\ a\ word\ is\ already\ in\ the\ map,\ then\ add\ the\ current\r\nfilename\ to\ its\ ArrayList,\ unless\ the\ filename\ is\ already\ in\ the\ ArrayList.
+comment3.params=
+comment3.target=void\ buildWordFileMap()
+comment4.params=
+comment4.target=int\ maxNumber()
+comment5.params=list
+comment5.target=int\ wordOccurence(java.util.ArrayList)
+comment6.params=number
+comment6.target=java.util.ArrayList\ wordsInNumFiles(int)
+comment7.params=word
+comment7.target=void\ printFilesIn(java.lang.String)
+comment8.params=
+comment8.target=void\ tester()
+numComments=9

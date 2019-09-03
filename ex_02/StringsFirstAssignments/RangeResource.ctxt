@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=RangeResource
+comment0.text=\r\n\ The\ <code>RangeResource</code>\ class\ represents\ a\ range\ of\ integer\ (or\ whole)\ numbers\ and\ allows\r\n\ access\ to\ these\ numbers\ using\ the\ method\ <code>sequence</code>.\ The\ integers\ can\ then\ be\ iterated\r\n\ over\ using\ a\ <code>for</code>\ loop\r\n\ \r\n\ <P>\r\n\ Example\ usage\:\r\n\ \r\n\ <PRE>\r\n\ //\ this\ prints\ the\ square\ number\ sequence\ for\ the\ first\ 9\ numbers\:\r\n\ //\ \ \ 1,\ 4,\ 9,\ 16,\ 25,\ 36,\ 49,\ 64,\ 81\ \r\n\ RangeResource\ rr\ \=\ new\ RangeResource(1,\ 10);\r\n\ for\ (int\ value\ \:\ rr.sequence())\ {\r\n\ \ \ \ \ System.out.println(value\ *\ value);\r\n\ }\r\n\ </PRE>\r\n\r\n\ <P>\r\n\ Another\ example\ usage\:\r\n\ \r\n\ <PRE>\r\n\ //\ this\ prints\ the\ odd\ numbers\ in\ decreasing\ order\ within\ the\ given\ range\:\r\n\ //\ \ \ 37,\ 35,\ 33,\ 31,\ 29,\ 27,\ 25,\ 23\r\n\ RangeResource\ rr\ \=\ new\ RangeResource(37,\ 21,\ -2);\r\n\ for\ (int\ value\ \:\ rr.sequence())\ {\r\n\ \ \ \ \ System.out.println(value);\r\n\ }\r\n\ </PRE>\r\n\r\n\ <P>\r\n\ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\r\n\ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\r\n\ \r\n\ @author\ Duke\ Software\ Team\r\n
+comment1.params=end
+comment1.target=RangeResource(int)
+comment1.text=\r\n\ Create\ a\ <code>RangeResource</code>\ object,\ starting\ at\ 0\ and\ going\ up\ to\ but\ not\ including\r\n\ end,\ [0\ -\ end),\ that\ increments\ by\ 1.\r\n\ \r\n\ @param\ end\ when\ to\ stop\ the\ range,\ not\ included\ as\ one\ of\ the\ values\r\n\ @throws\ exception\ if\ the\ end\ is\ negative\r\n
+comment2.params=start\ end
+comment2.target=RangeResource(int,\ int)
+comment2.text=\r\n\ Create\ a\ <code>RangeResource</code>\ object,\ starting\ at\ start\ and\ going\ up\ to\ but\ not\r\n\ including\ end,\ [start\ -\ end),\ that\ increments\ by\ 1.\r\n\ \r\n\ @param\ start\ the\ first\ value\ in\ the\ range,\ included\ as\ one\ of\ the\ values\r\n\ @param\ end\ when\ to\ stop\ the\ range,\ not\ included\ as\ one\ of\ the\ values\r\n\ @throws\ exception\ if\ the\ end\ is\ less\ than\ the\ start\r\n
+comment3.params=start\ end\ increment
+comment3.target=RangeResource(int,\ int,\ int)
+comment3.text=\r\n\ Create\ a\ <code>RangeResource</code>\ object,\ starting\ at\ start\ and\ going\ up\ to\ but\ not\r\n\ including\ end,\ [start\ -\ end),\ that\ increments\ by\ the\ amount\ passed\ as\ a\ parameter.\r\n\ \r\n\ @param\ start\ the\ first\ value\ in\ the\ range,\ included\ as\ one\ of\ the\ values\r\n\ @param\ end\ when\ to\ stop\ the\ range,\ not\ included\ as\ one\ of\ the\ values\r\n\ @param\ increment\ how\ much\ to\ add\ to\ get\ the\ next\ value\ in\ the\ range's\ sequence\r\n\ @throws\ exception\ if\ increment\ is\ negative\ when\ the\ end\ is\ greater\ than\ the\ start\r\n\ @throws\ exception\ if\ increment\ is\ positive\ when\ the\ end\ is\ less\ than\ the\ start\r\n\ @throws\ exception\ if\ increment\ is\ 0\r\n
+comment4.params=other
+comment4.target=RangeResource(RangeResource)
+comment4.text=\r\n\ Create\ an\ <code>RangeResource</code>\ object\ that\ is\ a\ copy\ of\ another\ range.\r\n\ \r\n\ @param\ other\ the\ original\ range\ being\ copied\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Return\ string\ representation\ of\ this\ range,\ with\ each\ value\ in\ the\ sequence\ separated\ by\ a\r\n\ comma.\r\n\r\n\ @return\ a\ <code>String</code>\ containing\ all\ the\ values\ in\ the\ range\r\n
+comment6.params=
+comment6.target=java.lang.Iterable\ sequence()
+comment6.text=\r\n\ Allow\ access\ to\ the\ numbers\ in\ this\ range\ one\ at\ a\ time.\r\n\ \r\n\ @return\ an\ <code>Iterable</code>\ that\ will\ allow\ access\ to\ each\ number\ in\ this\ range\r\n
+comment7.params=start\ end\ increment
+comment7.target=java.util.List\ makeValues(int,\ int,\ int)
+numComments=8

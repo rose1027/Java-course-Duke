@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ The\ <code>Shape</code>\ class\ represents\ a\ collection\ of\ <code>Point</code>s\ that\ can\ easily\ \r\n\ model\ a\ polygonal\ shape.\ Points\ can\ be\ added\ in\ order\ via\ code\ or\ given\ using\ a\ file,\ one\ \r\n\ point\ per\ line\ separated\ by\ a\ comma.\ The\ points\ can\ then\ be\ accessed\ in\ the\ order\ they\ were\ \r\n\ added\ one\ at\ a\ time,\ using\ the\ method\ <code>getPoints</code>.\r\n\ \r\n\ <P>\r\n\ Example\ usage\:\ \r\n\ \r\n\ <PRE>\r\n\ Point\ a\ \=\ new\ Point(3,\ 4);\r\n\ Point\ b\ \=\ new\ Point(2,\ 5);\r\n\ Shape\ s\ \=\ new\ Shape();\r\n\ s.addPoint(a);\r\n\ s.addPoint(b);\r\n\ s.addPoint(new\ Point(1,\ 1));\r\n\ for\ (Point\ p\ \:\ s.getPoints())\ {\r\n\ \ \ \ \ System.out.println(p);\r\n\ }\r\n\ </PRE>\r\n\ \r\n\ <P>\r\n\ A\ <code>Shape</code>\ can\ also\ be\ created\ using\ file\ in\ the\ following\ format\:\r\n\ \r\n\ <PRE>\r\n\ 3,\ 4\r\n\ 2,\ 5\r\n\ 1,\ 1\r\n\ </PRE>\r\n\r\n\ <P>\r\n\ Example\ file\ usage\:\r\n\ \r\n\ <PRE>\r\n\ FileResource\ fr\ \=\ new\ FileResource();\r\n\ Shape\ s\ \=\ new\ Shape(fr);\r\n\ for\ (Point\ p\ \:\ s.getPoints())\ {\r\n\ \ \ \ \ System.out.println(p);\r\n\ }\r\n\ </PRE>\r\n\ \r\n\ <P>\r\n\ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\r\n\ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\r\n\ \r\n\ @author\ Duke\ Coursera\ Team\r\n
+comment1.params=
+comment1.target=Shape()
+comment1.text=\r\n\ Create\ an\ empty\ <code>Shape</code>\ object,\ one\ with\ no\ points.\r\n
+comment2.params=file
+comment2.target=Shape(edu.duke.FileResource)
+comment2.text=\r\n\ Create\ a\ <code>Shape</code>\ object\ from\ a\ file\ with\ x,y\ coordinates\ \r\n\ of\ points,\ in\ order,\ one\ pair\ of\ x,y\ per\ line.\r\n\ \r\n\ Each\ x,y\ are\ comma-separated,\ e.g.,\r\n\ <pre>\r\n\ \ \ 3,4\r\n\ \ -2,5\r\n\ </pre>\r\n\ whitespace\ on\ line\ is\ skipped.\r\n\ \r\n\ @param\ file\ is\ the\ FileResource\ accessible\ and\ bound\ to\ a\ file\r\n\ with\ one\ pair\ of\ points\ per\ line\r\n
+comment3.params=p
+comment3.target=void\ addPoint(Point)
+comment3.text=\r\n\ Add\ a\ point\ to\ this\ shape/polygon.\ \r\n\ \r\n\ The\ order\ in\ which\ points\ are\ added\ defines\ the\ order\ in\ which\ points\ are\r\n\ accessed.\r\n\ \r\n\ @param\ p\ is\ the\ Point\ added\ to\ this\ shape\r\n
+comment4.params=
+comment4.target=Point\ getLastPoint()
+comment4.text=\r\n\ Return\ the\ last\ point\ added\ to\ this\ shape/polygon\r\n\ \r\n\ @return\ the\ last\ Point\ added\r\n
+comment5.params=
+comment5.target=java.lang.Iterable\ getPoints()
+comment5.text=\r\n\ Allow\ access\ to\ this\ shape\ one\ point\ at\ a\ time.\r\n\ \r\n\ @return\ an\ Iterable\ that\ allows\ access\ to\ points\r\n
+numComments=6

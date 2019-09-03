@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=makeGray
+comment1.params=inImage
+comment1.target=edu.duke.ImageResource\ makeGray(edu.duke.ImageResource)
+comment2.params=
+comment2.target=void\ testmakeGray()
+comment3.params=
+comment3.target=void\ testmakeGraywithManyFiles()
+comment4.params=
+comment4.target=void\ dosaver()
+numComments=5
